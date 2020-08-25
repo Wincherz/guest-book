@@ -1,5 +1,5 @@
 {
   "port": 5000,
-  "mongoUri": "mongodb+srv://testuser:qwerty123456@cluster.a5dph.azure.mongodb.net/messages",
+  "mongoUri": "mongodb+srv://testuser:qwerty123456@cluster0.9md6l.azure.mongodb.net/<dbname>?retryWrites=true&w=majority",
   "url": "http://localhost:"
 }
