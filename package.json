@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "set NODE_ENV=development&& node index.js",
     "server": "nodemon index.jsx",
     "client": "npm run start --prefix my-app",
     "dev": "concurrently \"npm run server\" \"npm run client\""
